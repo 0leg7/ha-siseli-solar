@@ -1,0 +1,8 @@
+{
+  "name": "siseli-token-updater",
+  "version": "0.2.0",
+  "description": "Siseli Solar token auto-updater via Puppeteer",
+  "dependencies": {
+    "puppeteer-core": "^22.0.0"
+  }
+}

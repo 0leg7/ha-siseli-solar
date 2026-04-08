@@ -1,0 +1,12 @@
+{
+  "domain": "siseli_solar",
+  "name": "Siseli Solar (Sun House)",
+  "codeowners": [],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://solar.siseli.com/",
+  "integration_type": "hub",
+  "iot_class": "cloud_polling",
+  "requirements": [],
+  "version": "0.3.0"
+}

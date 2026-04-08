@@ -1,0 +1,18 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Siseli Solar (Sun House)",
+        "description": "Paste your IOT-Token. Get it from Chrome DevTools (F12 → Network → any request → IOT-Token header) or run the siseli_get_token.js Puppeteer script.",
+        "data": {"token": "IOT-Token"}
+      }
+    },
+    "error": {
+      "invalid_auth": "Token is invalid or expired",
+      "cannot_connect": "Cannot connect to Siseli Solar API",
+      "no_stations": "No stations found",
+      "unknown": "Unexpected error"
+    },
+    "abort": {"already_configured": "Already configured"}
+  }
+}

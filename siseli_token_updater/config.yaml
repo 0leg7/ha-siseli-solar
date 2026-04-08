@@ -1,0 +1,21 @@
+---
+name: "Siseli Token Updater"
+description: "Auto-update Siseli Solar token via headless Chromium (with retry)"
+version: "0.2.0"
+slug: "siseli_token_updater"
+url: "https://solar.siseli.com/"
+arch:
+  - amd64
+startup: "services"
+boot: "auto"
+init: false
+options:
+  account: ""
+  password: ""
+  interval_minutes: 110
+schema:
+  account: str
+  password: password
+  interval_minutes: "int(30,1440)"
+map:
+  - config:rw

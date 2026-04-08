@@ -1,0 +1,18 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Siseli Solar (Sun House)",
+        "description": "Вставьте IOT-Token. Получите его из Chrome DevTools (F12 → Сеть → любой запрос → заголовок IOT-Token) или запустите скрипт siseli_get_token.js",
+        "data": {"token": "IOT-Token"}
+      }
+    },
+    "error": {
+      "invalid_auth": "Токен недействителен или истёк",
+      "cannot_connect": "Не удалось подключиться к серверу",
+      "no_stations": "Станции не найдены",
+      "unknown": "Неизвестная ошибка"
+    },
+    "abort": {"already_configured": "Уже настроено"}
+  }
+}
